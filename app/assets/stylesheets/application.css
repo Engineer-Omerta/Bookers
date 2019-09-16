@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.top-page,
+.books-page
+{
+	width: 100%;
+	padding-top: 30px;
+}
+.top-content,
+.books-content{
+	width: 95%;
+	margin: 0 auto;
+}
+.top-text{
+	padding-left: 50px
+}
+.top-text > p {
+	line-height: 65px;
+	font-size: 14px;
+}
+.top-title-headline{
+	font-weight: bold;
+}
+
+.show-link,
+.edit-link,
+.destroy-link{
+	margin-left: 15px;
+}
+.body-margin{
+	margin-left: 15px;
+}
+.new-form{
+	padding-top: 15px;
+}
+.flash-create{
+	color: green;
+	padding-bottom: 15px;
+}
+
+.show-page{
+	width: 100%;
+}
+.show-content{
+	width: 95%;
+	margin: 0 auto;
+}
+.title-box,
+.body-box{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.add-menu{
+	padding-top: 50px;
+}
+.edit,
+.wall,
+.back{
+	float: left;
+}
+.wall{
+	padding: 0 4px;
+}
+
+.edit-page{
+	width: 100%;
+	padding-top: 30px;
+}
+.edit-content{
+	width: 95%;
+	margin: 0 auto;
+}
+.show{
+	float: left;
+}
+.edit-body-form{
+	padding: 10px 0;
+}
+.add-menu2{
+	padding-top: 15px;
+	font-size: 14px;
+}
